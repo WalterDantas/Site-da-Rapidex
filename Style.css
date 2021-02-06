@@ -22551,3 +22551,16 @@ ul.is-bar li + li {
     /* display:none; */
     width: 100% !important;
 }
+
+
+
+.backstretch img {
+  margin-top:  -90px;
+  object-fit: cover;
+}
+
+.secondaryBanner {
+  background-size:100% !important;
+  width: 100% !important;
+  object-fit:contain !important;
+}
