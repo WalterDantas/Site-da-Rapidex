@@ -22610,4 +22610,13 @@ ul.is-bar li + li {
     height: 70%;
     /* background: transparent !important; */
   }
+  .col-sm-5.bg-image.shadow-large-black.revert-classes-holder,
+  .col-sm-5.bg-image.shadow-large-black{
+    background-size: 100% !important;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    object-fit: contain !important;
+    min-height: 300px;
+  }
+  
 }
