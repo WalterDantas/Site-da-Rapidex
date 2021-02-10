@@ -11201,6 +11201,7 @@ ul.dropdown-menu.active-line-top-bottom
   width: 100%;
   position: absolute;
   z-index: 100;
+  top: 0;
 }
 .header-full-height {
   min-height: 100vh;
@@ -11242,6 +11243,7 @@ ul.dropdown-menu.active-line-top-bottom
   padding-top: 1rem;
   padding-bottom: 1rem;
   position: relative;
+  display: none;
 }
 .navigation-bar.coloured-nav {
   background-color: #fff;
@@ -22555,12 +22557,45 @@ ul.is-bar li + li {
 
 
 .backstretch img {
-  margin-top:  -90px;
+  margin-top:  -150px !important;
   object-fit: cover;
 }
+
+
 
 .secondaryBanner {
   background-size:100% !important;
   width: 100% !important;
   object-fit:contain !important;
+}
+
+
+#mainBanner {
+  transition-duration: 0.1s;
+  background-image: url('assets/living-room-2569325_1920.jpg');
+  /* background-position: top ; */
+}
+
+@media screen and (max-width: 900px) {
+  /* #mainBanner {
+    height: 100% !important;
+    width: 100% !important;
+    background-size: 100% !important;
+     object-fit: initial !important; 
+  } */
+  #mainBanner{
+    position: absolute !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+    width: 774.258px !important;
+    height: 516.172px !important;
+    max-width: none !important;
+    inset: 0px auto auto -180.129px !important;
+  }
+
+  .backstretch img {
+    margin-top:  -150px !important;
+    object-fit: cover;
+  }
 }
