@@ -22569,7 +22569,16 @@ ul.is-bar li + li {
 #mainBanner {
   transition-duration: 0.1s;
   background-image: url('assets/living-room-2569325_1920.jpg');
-  /* background-position: top ; */
+  position: absolute !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  background-position: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 900px) {
